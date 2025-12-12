@@ -19,7 +19,7 @@ PRODUCT_PACKAGES += libGLES_mali
 include vendor/samsung/trelte-common/find-vendor-blobs.mk
 
 # Include vendor/samsung/treltexx/treltexx-vendor.mk
-include vendor/samsung/treltexx/treltexx-vendor.mk
+#include vendor/samsung/treltexx/treltexx-vendor.mk
 
 # Proprietary blobs
 PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/trelte-common/proprietary)

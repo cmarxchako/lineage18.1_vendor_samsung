@@ -15,5 +15,8 @@
 # Include blob-finder
 include vendor/samsung/treltexx/find-vendor-blobs.mk
 
+# Include vendor/samsung/trelte-common/trelte-common.mk
+#include vendor/samsung/trelte-common/trelte-common.mk
+
 # Proprietary blobs
 PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/treltexx/proprietary)
